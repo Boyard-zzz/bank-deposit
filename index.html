@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cardsrow">
+        <div class="deposit">
+            <h1>Deposit</h1>
+            <span class="deposit-span">$0</span>
+        </div>
+        <div class="withdraw">
+            <h1>Withdraw</h1>
+            <span class="withdraw-span">$0</span>
+        </div>
+        <div class="balance">
+            <h1>Balance</h1>
+            <span class="balance-span">$0</span>
+        </div>
+    </div>
+    
+    <div class="forms">
+        <form action="" class="Deposit-calculator">
+            <!-- ✅ Fixed: Added id and matching for attribute -->
+            <label for="depositInput">Deposit</label>
+            <input type="number" id="depositInput" class="deposit_input">
+            <button type="button" class="deposit_btn">Deposit</button>
+        </form>
+        
+        <form action="" class="Withdraw-calculator">
+            <!-- ✅ Fixed: Added id and matching for attribute -->
+            <label for="withdrawInput">Withdraw</label>
+            <input type="number" id="withdrawInput" class="withdraw_input">
+            <button type="button" class="withdraw_btn">Withdraw</button>
+        </form>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>

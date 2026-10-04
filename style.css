@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.cardsrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.cardsrow div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.deposit{
+    background: #00e1ff;
+    padding: 25px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.withdraw{
+    background: #0f6e1c;
+    padding: 25px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.balance{
+    background: #1266e4;
+    padding: 25px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 6rem;
+    margin-top: 40px;
+}
+
+
+.Deposit-calculator{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    gap: 8px;
+    box-shadow: 1px 5px 10px;
+}
+
+.Withdraw-calculator{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    gap: 8px;
+    box-shadow: 1px 5px 10px;
+}
+
+
+.Deposit-calculator label{
+    font-weight: bold;
+    font-style: inherit;
+}
+
+.Deposit-calculator input{
+ padding: 5px;
+ border: 1px solid #000;
+ width: 70%;
+}
+
+.Deposit-calculator button{
+    padding: 0.5rem;
+    background-color: #3bb33b;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.Withdraw-calculator label{
+    font-weight: bold;
+    font-style: inherit;
+}
+
+.Withdraw-calculator input{
+ padding: 5px;
+ border: 1px solid #000;
+}
+
+
+.Withdraw-calculator button{
+    padding: 0.5rem;
+    background-color: #3bb33b;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
